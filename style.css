@@ -1,0 +1,52 @@
+
+.nav{
+    display: flex;
+    background-color: cadetblue;
+    height: 10vh;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+}
+.nav h1{
+    color: whitesmoke;
+}
+.container{
+    display: flex;
+    width: auto;
+    height: 80vh;
+}
+.menu{
+    background-color: aqua;
+    width: 15%;
+}
+.menu a{
+    display: block;
+    border: solid black;
+    border-style: double;
+    background-color: bisque;
+    padding: 15px;
+}
+.content{
+    background-color: red;
+    width: 65%;
+    
+}
+.profile{
+    background-color: aqua;
+    width: 15%;
+}
+.profile img {
+    width: 200px;
+}
+
+.footer{
+    display: flex;
+    width: 95%;
+    height: 10vh;
+    background-color: teal;
+    align-items: center;
+    justify-content: center;
+}
+.footer h3{
+    color: whitesmoke;
+}
